@@ -1,6 +1,7 @@
 app = angular.module 'simpleGantt', []
-app.directive 'tester', () ->
+app.directive 'pppNav', () ->
   restrict: 'E'
-  template: '<div>{{success}}</div>'
-  controller: ($scope) ->
-    $scope.success = 'successful'
+  templateUrl: 'nav.html'
+app.directive 'pppHeader', () ->
+  restrict: 'E'
+  templateUrl: 'header.html'
