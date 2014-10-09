@@ -1,0 +1,20 @@
+doctype html
+html(ng-app="simpleGantt")
+  head
+    title Pink Platypus Project
+    link(href='main.css', rel='stylesheet')
+    script(src="//use.typekit.net/fej4lnm.js")
+    script
+        | try{Typekit.load();}catch(e){}
+  body
+    header
+        ppp-header
+    main
+        h1 Gallery
+        p
+            img(src="four.jpeg")
+        p Flying
+        p
+            a(href="gallery.html") Back to beginning
+    script(src='vendor.js')
+    script(src='main.js')

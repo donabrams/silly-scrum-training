@@ -3,8 +3,14 @@ html(ng-app="simpleGantt")
   head
     title Pink Platypus Project
     link(href='main.css', rel='stylesheet')
+    script(src="//use.typekit.net/fej4lnm.js")
+    script
+        | try{Typekit.load();}catch(e){}
   body
-    ppp-header
-    ppp-nav
+    header
+        ppp-header
+    main 
+        h1 Diet
+        p The platypus spends quite a large amount of time searching for food and it consumes up to 28% of its body weight every day. Being a carnivore, its diet consists of crabs, insects, worms, clams, fish and frogs. Since they are bottom feeders, they like hunting mostly at night in dark, remote places. They create dens and burrows for their protection. They can live up to 12 years and they need to watch out for threats lurking in the shadows, such as snakes, foxes and of course, humans.
     script(src='vendor.js')
     script(src='main.js')

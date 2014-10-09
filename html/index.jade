@@ -3,8 +3,15 @@ html(ng-app="simpleGantt")
   head
     title Pink Platypus Project
     link(href='main.css', rel='stylesheet')
+    script(src="//use.typekit.net/fej4lnm.js")
+    script
+        | try{Typekit.load();}catch(e){}
   body
-    ppp-header
-    ppp-nav
+    header
+        ppp-header
+    main
+        h1 A Day in the Life of a Platypus
+        p
+            | A duck-billed, egg laying mammal, with the tail of a beaver, the platypus lives mainly in Eastern Australia and Tasmania. They are quite unique, even bizarre, in their appearance and extraordinary characteristics. Hunted for its fur and almost reached extinction, they are now considered vulnerable species and protected all around Australia. Their population is now growing, but with the destruction of their habitats, they may come close to extinction once more.
     script(src='vendor.js')
     script(src='main.js')

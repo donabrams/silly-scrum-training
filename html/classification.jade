@@ -1,0 +1,38 @@
+doctype html
+html(ng-app="simpleGantt")
+  head
+    title Pink Platypus Project
+    link(href='main.css', rel='stylesheet')
+    script(src="//use.typekit.net/fej4lnm.js")
+    script
+        | try{Typekit.load();}catch(e){}
+  body
+    header
+        ppp-header
+    main
+        h1 Scientific Name and Classification
+        p The platypus, also known as the duck-billed platypus, is a semiaquatic egg-laying mammal endemic to eastern Australia, including Tasmania.
+        ul
+            li 
+                strong Scientific name: 
+                | Ornithorhynchus anatinus
+            li 
+                strong Mass:  
+                | 0.7 – 2.4 kg
+            li 
+                strong Lifespan:  
+                | 17 y (In captivity)
+            li 
+                strong Rank: 
+                | Species
+            li
+                strong Clutch 
+                | size: 1 – 3
+            li
+                strong Symbol of: 
+                | New South Wales
+            li
+                strong Length: 
+                | 50 cm on average (Adult, Male), 43 cm on average (Adult, Female)
+    script(src='vendor.js')
+    script(src='main.js')
